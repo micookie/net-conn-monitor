@@ -15,4 +15,8 @@ go build -o net-conn-monitor-arm net-conn-monitor.go
 ```
 
 # 消息推送
-当前使用 https://www.pushplus.plus，程序前需要配置 `PUSH_TOKEN` 环境变量。
+当前使用 [pushplus](https://www.pushplus.plus)推送。
+
+
+# 运行
+程序启动前，需要配置 `PUSH_TOKEN` 环境变量。
